@@ -3,6 +3,8 @@
 #include "UserInterface.h"
 #include <fstream>
 
+// Project made by Abhir Raj Shrivastava and Simran Bhardwaj
+
 void insertIntoCity(City &city, std::string str)
 {
     std::string word = ""; // stores edge
@@ -55,7 +57,7 @@ void insertIntoCity(City &city, std::string str)
 
 int main()
 {
-
+    std::cout<<"Project Made By\n"<<"1. Abhir Raj Shrivastava\n"<<"2. Simran Bhardwaj\n\n\n";
     City graph;
 
     std::ifstream infile;
